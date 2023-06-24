@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>カウントダウン</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>現在時刻</h3>
+
+    <div class="time">
+        <span id="current-time"></span>
+    </div>
+
+    <h3 id="title-text"></h3>
+    <div class="time">
+        <span id="endtime-text"></span>
+    </div>
+
+    <div class="countdown-container">
+        <span id="countdown"></span>
+    </div>
+
+    <br>
+
+    <details>
+        <summary>設定</summary>
+        <form>
+            <label for="title">タイトル：</label>
+            <input type="text" id="title-input" placeholder="タイトルを入力してください">
+            <br>
+            <label for="endtime">終了時刻：</label>
+            <input type="datetime-local" id="endtime-input">
+            <br>
+            <button type="button" onclick="setCountdown()">決定</button>
+        </form>
+    </details>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

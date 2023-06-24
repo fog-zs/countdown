@@ -1,0 +1,37 @@
+body {
+    margin: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: black;
+    color: orange;
+    font-weight: bold;
+    font-family: serif;
+}
+
+h3 {
+    margin-bottom: 1vw;
+    font-size: 4vw;
+}
+
+.type1 {
+    /* font-family: 'Sacramento', cursive;
+   */
+    color: red;
+    font-size: 5vw;
+}
+
+.countdown-container {
+    /* font-family: 'Sacramento', cursive;
+   */
+    /* font-family: "游明朝"; */
+    color: red;
+    font-size: 11vw;
+    border-radius: 20px;
+    padding-left: 3vw;
+    /* background-color: rgb(35,0,0); */
+}
+
+.time {
+    color: red;
+    font-size: 3vw;
+}
